@@ -226,5 +226,17 @@ result
 end
 
 def winning_team
-  
+  result = ""
+  most_point = 0
+  game_hash.each do |key,value|
+    value[:players].each do |k|
+      if k[:points] > most_point
+        most_point = k[:points]
+        result = k[:player_name]
+  end
+  end
+end
+result
+    #binding.pry
+end
 end
