@@ -224,3 +224,7 @@ end
 result
     #binding.pry
 end
+
+def winning_team
+  
+end
