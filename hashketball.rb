@@ -211,3 +211,6 @@ def big_shoe_rebounds
 end
 
 def most_points_scored
+  result = ""
+  g
+end
