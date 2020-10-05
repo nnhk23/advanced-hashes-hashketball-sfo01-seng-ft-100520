@@ -231,6 +231,7 @@ def winning_team
   game_hash.each do |key,value|
     value.each do |k|
   binding.pry
+  if k[:players][:]
 end
 end
 end
