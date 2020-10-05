@@ -222,5 +222,5 @@ def most_points_scored
   end
 end
 result
-    binding.pry
+    #binding.pry
 end
