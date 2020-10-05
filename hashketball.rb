@@ -212,10 +212,15 @@ end
 
 def most_points_scored
   result = ""
+  most_point = 0
   game_hash.each do |key,value|
     value[:players].each do |k|
-      if k[:]
+      if k[:points] > most_point
+        most_point = k[:points]
+        result = k[:player_name]
     binding.pry
   end
+  end
 end
+result
 end
