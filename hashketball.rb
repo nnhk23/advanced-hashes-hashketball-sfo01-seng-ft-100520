@@ -213,6 +213,8 @@ end
 def most_points_scored
   result = ""
   game_hash.each do |key,value|
+    value.each do |k,v|
     binding.pry
+  end
 end
 end
