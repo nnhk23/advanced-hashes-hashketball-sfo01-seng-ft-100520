@@ -218,9 +218,9 @@ def most_points_scored
       if k[:points] > most_point
         most_point = k[:points]
         result = k[:player_name]
-    binding.pry
   end
   end
 end
 result
+    binding.pry
 end
